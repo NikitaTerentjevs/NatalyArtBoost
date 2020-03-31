@@ -1,6 +1,30 @@
 #navbarLogo{
     height: 40px;
 }
-.menu-bg{
-    background-color: #E9F4D2
+body{
+    padding: 0 25px 0 25px ;
+}
+nav{
+    font-family: "Pacifico", serif;
+}
+#product-pic{
+    height: 300px;
+}
+#order-pic{
+    height: 300px;
+}
+.row>div{
+    text-align: center;
+    margin-bottom: 25px;
+
+}
+.bottom{
+    position: absolute;
+    text-decoration: none;
+    color: White;
+    font-family: "Pacifico", serif;
+    top:70%;
+    right: 40%;
+    font-size: 40px;
+
 }
