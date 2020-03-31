@@ -7,9 +7,16 @@
 .col-12>ul{
     background-color: rgba(255, 225, 136, 0.9);
     margin-bottom:5px;
+
+
 }
 .nav-tabs>.nav-item>a.active.nav-link{
     background-color: #f4e1a4;
+    color: Black;
+}
+.nav-tabs>.nav-item>a.nav-link{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.63);
 }
 @media (max-width: 992px){
     .col-sm-12>iframe {
