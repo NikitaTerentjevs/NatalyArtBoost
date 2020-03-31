@@ -1,23 +1,11 @@
-#navbarLogo{
-    height: 40px;
-}
-body{
-    padding: 0 25px 0 25px ;
-}
-nav{
-    font-family: "Pacifico", serif;
-}
+
 #product-pic{
     height: 300px;
 }
 #order-pic{
     height: 300px;
 }
-.row>div{
-    text-align: center;
-    margin-bottom: 25px;
 
-}
 .bottom{
     position: absolute;
     text-decoration: none;

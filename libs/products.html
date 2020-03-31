@@ -12,7 +12,9 @@
     <link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
     <script src="../js/bootstrap.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../css/indexStyle.css">
+    <link rel="stylesheet" href="../css/default-css.css">
+    <link rel="stylesheet" href="../css/productStyle.css">
+    <link href="../lightbox/css/lightbox.css" rel="stylesheet">
 
 </head>
 <body>
@@ -21,18 +23,18 @@
 
     <nav class="navbar  navbar-expand-sm sticky-top bg-light navbar-light">
         <a href="#" class="navbar-brand">
-                <img id="navbarLogo"  src="../images/Logo.jpg" alt="">
+            <img id="navbarLogo"  src="../images/Logo.jpg" alt="">
         </a>
         <div class="collapse navbar-collapse" id="collapse-target">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="../index.html">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Products</a>
+                    <a class="nav-link active" href="products.html">Products</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Order Now</a>
+                    <a class="nav-link" href="order.html">Order Now</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" data-toggle="dropdown" data-targer="dropdown-target" href="#">Contacts</a>
@@ -41,7 +43,7 @@
                         <a class="dropdown-item" href="#">Facebook</a>
                         <a class="dropdown-item" href="#">Whatsapp</a>
                         <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Set an Appointment</a>
+                        <a class="dropdown-item disabled" href="#">Set an Appointment</a>
                     </div>
                 </li>
             </ul>
@@ -51,6 +53,97 @@
         </button>
     </nav>
 
+    <div class="col-12">
+        <ul class="nav nav-tabs">
+            <li class="nav-item">
+                <a href="#Paintings" class="nav-link active" role="tab" data-toggle="tab">Paintings</a>
+            </li>
+            <li class="nav-item">
+                <a href="#Clothing" class="nav-link" role="tab" data-toggle="tab">Clothing</a>
+            </li>
+            <li class="nav-item">
+                <a href="#Videos" class="nav-link" role="tab" data-toggle="tab">Videos</a>
+            </li>
+        </ul>
+        <div class="tab-content">
+            <div role="tabpanel" class="tab-pane   active" id="Paintings">
 
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <a href="../images/Paintings/dawn_creek.jpg" data-lightbox="paintings">
+                            <img src="../images/Paintings/dawn_creek.jpg" alt="" class="pic-item">
+                        </a>
+                        <p>Dawn creek</p>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <a href="../images/Paintings/dawn_winter.jpg" data-lightbox="paintings">
+                            <img src="../images/Paintings/dawn_winter.jpg" alt="" class="pic-item">
+                        </a>
+                        <p>Winter Dawn</p>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <a href="../images/Paintings/hidden_path.jpg" data-lightbox="paintings">
+                            <img src="../images/Paintings/hidden_path.jpg" alt="" class="pic-item">
+                        </a>
+                        <p>Hidden Path</p>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <a href="../images/Paintings/high_cliffs.jpg" data-lightbox="paintings">
+                            <img src="../images/Paintings/high_cliffs.jpg" alt="" class="pic-item">
+                        </a>
+                        <p>High Cliffs</p>
+                    </div>
+                </div>
+
+            </div>
+            <div role="tabpanel" class="tab-pane " id="Clothing">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <a href="../images/Clothings/fox-jacket.jpg" data-lightbox="clothing">
+                            <img src="../images/Clothings/fox-jacket.jpg" alt="" class="pic-item">
+                        </a>
+                        <p>Ancient Fox</p>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <a href="../images/Clothings/lion-jacket.jpg" data-lightbox="clothing">
+                                <img src="../images/Clothings/lion-jacket.jpg" alt="" class="pic-item">
+                        </a>
+                        <p>Nebula Lion</p>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <a href="../images/Clothings/flowergirl-shirt.jpg" data-lightbox="clothing">
+                            <img src="../images/Clothings/flowergirl-shirt.jpg" alt="" class="pic-item">
+                        </a>
+                        <p>Flower Girl</p>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <a href="../images/Clothings/dreamcatcher-jacket.jpg" data-lightbox="clothing">
+                            <img src="../images/Clothings/dreamcatcher-jacket.jpg" alt="" class="pic-item">
+                        </a>
+                        <p>Dream Catcher</p>
+                    </div>
+                </div>
+            </div>
+            <div role="tabpanel" class="tab-pane " id="Videos">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <iframe src="https://www.youtube.com/embed/F7l6W9opIX4" width="100%" height="100%"></iframe>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <iframe src="https://www.youtube.com/embed/Gwsm2Wf0ds0" width="100%" height="100%"></iframe>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <iframe src="https://www.youtube.com/embed/vb8ckQZ1R0Y" width="100%" height="100%"></iframe>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <iframe src="https://youtube.com/embed/rwyzA-UrgmA" width="100%" height="100%"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="../lightbox/js/lightbox-plus-jquery.js"></script>
 </body>
 </html>

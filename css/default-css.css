@@ -1,0 +1,14 @@
+#navbarLogo{
+    height: 40px;
+}
+body{
+    padding: 0 25px 0 25px ;
+}
+nav{
+    font-family: "Pacifico", serif;
+}
+.row>div{
+    text-align: center;
+    margin-bottom: 25px;
+
+}
