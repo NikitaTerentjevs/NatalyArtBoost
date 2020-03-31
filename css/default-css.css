@@ -18,3 +18,10 @@ nav{
 li.nav-item>a.active.nav-link{
     background-color: #A08A7C;
 }
+.slideShow{
+    overflow: hidden;
+}
+.mySlides {
+    opacity: 50%;
+    width: 100%;
+}

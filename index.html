@@ -8,17 +8,33 @@
 
     <title>NatalyArt</title>
 
-    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-    <script src="js/bootstrap.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+
     <link rel="stylesheet" href="css/indexStyle.css">
     <link rel="stylesheet" href="css/default-css.css">
+
+
 
 </head>
 <body>
 
-    <!-- Add carousel here -->
+    <div class="slideShow">
+        <div class="mySlides" style="display: block;">
+            <img src="images/Paintings/high_cliffs.jpg" alt="" style="width:100%;margin: -30% 0;">
+        </div>
+
+        <div class="mySlides" style="display: none;">
+            <img src="images/Clothings/fox-jacket.jpg" alt="" style="width:100%;margin: -37.5% 0 -47.5% 0;">
+        </div>
+
+        <div class="mySlides" style="display: none;">
+            <img src="images/Logo.jpg" alt="" style="width:100%;margin: -16.5% 0;">
+        </div>
+    </div>
 
     <nav class="navbar  navbar-expand-sm sticky-top navbar-light">
         <a href="#" class="navbar-brand">
@@ -98,6 +114,7 @@
             var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
         }
     </script>
+    <script src="js/autoslide.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCc3I0aZAjZ1Dfrgybu4hJV3v4h07yFMxA&amp;callback=myMap"></script>
 </body>
 </html>
